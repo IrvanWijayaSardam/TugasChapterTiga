@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityMahasiswa">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Menghitung Nilai Akhir Mahasiswa"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : "
+            android:textSize="20sp"
+            android:layout_marginRight="40dp"
+            />
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nim : "
+            android:layout_marginRight="56dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtNim"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai UAS : "
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtUAS"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+
+        >
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai UTS : "
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtUTS"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai Tugas : "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtTugas"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHitungNilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hitung"
+            />
+        <Button
+            android:id="@+id/btnResetNilai"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNamaMahasiswa"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa : "
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvNim"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM : "
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvUas"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UAS : "
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvUts"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UTS : "
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvTugas"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tugas : "
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total : "
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvRata"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rata-Rata Nilai : "
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvNilaiHuruf"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai Huruf : "
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status : "
+        android:textSize="18sp"
+        />
+
+</LinearLayout>
