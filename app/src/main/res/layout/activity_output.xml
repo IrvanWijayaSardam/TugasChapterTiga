@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityOutput"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<!--        Linear Intent-->
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="60dp"
+            >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil(Intent) : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvUmurIntent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Umur Anda : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvTinggiIntent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinggi : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvBBIntent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berat Badan : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvBMIIntent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI Anda : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvkategoriIntent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kategori : "
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<!--            Bundle-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil(Bundle) : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvUmurBundle"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Umur Anda : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvTinggiBundle"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinggi : "
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/tvBBBundle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Berat Badan : "
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tvBMIBundle"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI Anda : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvKategoriBundle"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kategori : "
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--        Seiralizable -->
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="50dp"
+            >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil(Serial) : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvUmurSerial"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Umur Anda : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvTinggiSerial"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinggi : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvBBSerial"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berat Badan : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvBMISerial"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI Anda : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvkategoriSerial"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kategori : "
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <!--            Parcelable-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil(Parcel) : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvUmurParcel"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Umur Anda : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvTinggiParcel"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinggi : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvBBParcel"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berat Badan : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvBMIParcel"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI Anda : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/tvKategoriParcel"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kategori : "
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

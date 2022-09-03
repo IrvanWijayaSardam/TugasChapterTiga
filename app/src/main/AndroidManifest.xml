@@ -14,6 +14,9 @@
         android:theme="@style/Theme.TugasChapterTiga"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityOutput"
+            android:exported="false" />
+        <activity
             android:name=".ActivityMahasiswa"
             android:exported="false" />
         <activity
